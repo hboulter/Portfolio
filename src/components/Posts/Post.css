@@ -5,6 +5,10 @@
   padding: 24px 36px;
 }
 
+.image {
+  padding-top: 20px;
+}
+
 .profile {
   background-image: url("https://placehold.it/150");
   background-position: center;

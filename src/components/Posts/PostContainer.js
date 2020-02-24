@@ -1,9 +1,12 @@
 import React from "react";
 import Post from "./Post";
+import images from "../images";
 
 const PostContainer = () => (
   <div className="container">
-    <Post />
+    {images.map(image => (
+      <Post key={image.id} image={image} />
+    ))}
   </div>
 );
 

@@ -1,12 +1,11 @@
 import React from "react";
 import Story from "./Story";
-
-const storiesArr = [0, 0, 0, 0];
+import images from "../images";
 
 const StoriesContainer = () => (
   <div className="container">
-    {storiesArr.map(story => (
-      <Story />
+    {images.map(image => (
+      <Story key={image.id} image={image} />
     ))}
   </div>
 );
