@@ -1,0 +1,12 @@
+#nav__container {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+.name {
+  text-align: center;
+  font-size: 40px;
+}

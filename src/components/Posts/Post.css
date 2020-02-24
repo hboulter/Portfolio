@@ -1,0 +1,25 @@
+.card {
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+  margin-top: 25px;
+  padding: 24px 36px;
+}
+
+.profile {
+  background-image: url("https://placehold.it/150");
+  background-position: center;
+  background-size: 100%;
+  border-radius: 50%;
+  display: inline-block;
+  height: 75px;
+  position: relative;
+  width: 75px;
+  margin-right: 20px;
+}
+
+.profile__name {
+  color: #5e5e5e;
+  align-self: center;
+  font-weight: bold;
+  white-space: nowrap;
+}

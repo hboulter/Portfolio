@@ -1,0 +1,26 @@
+.story {
+  background-image: url("https://placehold.it/150");
+  background-position: center;
+  background-size: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+  height: 150px;
+  position: relative;
+  transition: all 0.15s ease-in-out;
+  width: 150px;
+  margin: 20px;
+}
+
+.story:hover {
+  background-size: 140%;
+  transition: all 0.3s ease-in-out;
+}
+.story__title {
+  bottom: 0;
+  color: #5e5e5e;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 150%);
+  white-space: nowrap;
+}
